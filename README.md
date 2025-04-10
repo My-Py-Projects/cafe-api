@@ -1,8 +1,7 @@
 # CafeAPI - RESTful Coffee Shop Management
 
 ## 🎯 Project Description  
-CafeAPI is a lightweight and scalable RESTful API built with Flask and SQLAlchemy to manage coffee shop data.  
-It provides complete CRUD functionality, including secure deletion, real-time price updates, and location-based search.
+CafeAPI is a lightweight and scalable RESTful API built with Flask and SQLAlchemy to manage coffee shop data. It provides complete CRUD functionality, including secure deletion, real-time price updates, and location-based search.
 
 ## 📦 Deliverables  
 - Flask web application  
@@ -31,15 +30,15 @@ It provides complete CRUD functionality, including secure deletion, real-time pr
 
 ## ⚙️ API Endpoints
 
-| Endpoint               | Method   | Description                              |
-|------------------------|----------|------------------------------------------|
-| `/`                    | GET      | HTML interface / health check            |
-| `/random`              | GET      | Get a random café                        |
-| `/all`                 | GET      | Retrieve all cafés                       |
-| `/search?location=...` | GET      | Search cafés by location                 |
-| `/add`                 | POST     | Add a new café (form-urlencoded)         |
-| `/update-price/<id>`   | PATCH    | Update the price of a café               |
-| `/report-closed/<id>`  | DELETE   | Delete a café (requires API key)         |
+| Endpoint               | Method   | Description                      |
+|------------------------|----------|----------------------------------|
+| `/`                    | GET      | HTML interface / health check    |
+| `/random`              | GET      | Get a random cafe                |
+| `/all`                 | GET      | Retrieve all cafes               |
+| `/search?location=...` | GET      | Search cafés by location         |
+| `/add`                 | POST     | Add a new cafe (form-urlencoded) |
+| `/update-price/<id>`   | PATCH    | Update the price of a cafe       |
+| `/report-closed/<id>`  | DELETE   | Delete a cafe (requires API key) |
 
 ---
 
