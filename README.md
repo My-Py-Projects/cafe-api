@@ -11,11 +11,11 @@ CafeAPI is a lightweight and scalable RESTful API built with Flask and SQLAlchem
 - Built-in HTML landing page  
 
 ## 🚀 Key Features  
-- ☕ Retrieve a random café  
-- 📍 Search cafés by location  
-- 🧾 Add new cafés via form or API  
+- ☕ Retrieve a random cafe
+- 📍 Search cafes by location
+- 🧾 Add new cafes via form or API  
 - 💸 Update coffee prices  
-- 🔒 Secure café removal using API key
+- 🔒 Secure cafe removal using API key
 
 ## 🛠️ Technologies Used  
 | Component              | Technology            |
@@ -35,7 +35,7 @@ CafeAPI is a lightweight and scalable RESTful API built with Flask and SQLAlchem
 | `/`                    | GET      | HTML interface / health check    |
 | `/random`              | GET      | Get a random cafe                |
 | `/all`                 | GET      | Retrieve all cafes               |
-| `/search?location=...` | GET      | Search cafés by location         |
+| `/search?location=...` | GET      | Search cafes by location         |
 | `/add`                 | POST     | Add a new cafe (form-urlencoded) |
 | `/update-price/<id>`   | PATCH    | Update the price of a cafe       |
 | `/report-closed/<id>`  | DELETE   | Delete a cafe (requires API key) |
